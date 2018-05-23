@@ -1,0 +1,49 @@
+{
+	"name": "yuzu",
+	"description": "Comfy home page for cute unicorns",
+	"version": "1.0.0",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ikkakujuu/yuzu.git"
+	},
+	"keywords": [
+		"nuxt",
+		"homepage",
+		"unicorn"
+	],
+	"contributors": [
+		{
+			"name": "Bruno Scheufler",
+			"email": "contact@brunoscheufler.com",
+			"url": "https://brunoscheufler.com"
+		},
+		{
+			"name": "Tim Weiß",
+			"email": "tim@weiss.moe",
+			"url": "https://weiss.moe"
+		}
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ikkakujuu/yuzu/issues"
+	},
+	"homepage": "https://ikkakujuu.io",
+	"dependencies": {
+		"@nuxtjs/axios": "^5.0.0",
+		"nuxt": "^1.3.0",
+		"nuxt-property-decorator": "^1.2.0",
+		"vuex-class": "^0.3.0"
+	},
+	"scripts": {
+		"dev": "nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate"
+	},
+	"devDependencies": {
+		"@types/node": "^9.4.6",
+		"ts-loader": "^3.5.0",
+		"typescript": "^2.7.2"
+	}
+}
