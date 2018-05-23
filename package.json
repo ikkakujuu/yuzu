@@ -37,8 +37,8 @@
 	},
 	"scripts": {
 		"dev": "nuxt",
-		"build": "nuxt build",
-		"start": "nuxt start",
+		"build": "nuxt build --universal",
+		"start": "cross-env PORT=50302 NODE_ENV=production nuxt start",
 		"generate": "nuxt generate"
 	},
 	"devDependencies": {

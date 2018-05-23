@@ -11,10 +11,7 @@
 
 <script lang="ts">
 import ProjectCard from '../components/cards/ProjectCard.vue';
-import {
-  Component,
-  Vue
-} from 'nuxt-property-decorator';
+import { Component, Vue } from 'nuxt-property-decorator';
 import { State } from 'vuex-class';
 import IProject from '../models/project';
 
