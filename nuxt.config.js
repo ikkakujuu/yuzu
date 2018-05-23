@@ -41,7 +41,7 @@ module.exports = {
 		]
 	},
 	loading: { color: '#3B8070' },
-	css: ['~/assets/css/main.css'],
+	css: ['~/assets/css/main.scss'],
 	build: {},
 	modules: ['@nuxtjs/axios', '~/modules/typescript.js'],
 	axios: {}
